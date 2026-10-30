@@ -1,0 +1,10 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "SqueekCompanion",
+      "constructorArgs": ["$owner"]
+    }
+  ],
+  "notes": "Deploy Squeek Companion (SQCOMP), the Squeekchain dynamic ERC-721 collection on Sepolia. The constructor mints the fixed supply of 999 tokens, IDs 1 through 999, to $owner. Current token holders can pet their companions once per rolling 24 hours to increase bond up to 30, updating fully on-chain JSON metadata and SVG artwork. SqueekArt is an internal library inlined into SqueekCompanion. There are no subsequent mint, burn, administration, or upgrade entry points. Deployment requires no ETH funding or initialization calls."
+}
